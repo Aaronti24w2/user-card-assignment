@@ -1,0 +1,37 @@
+.user-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #e2e8f0; 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 260px; 
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .user-info p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .user-info p:first-child {
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
